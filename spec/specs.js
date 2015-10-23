@@ -1,6 +1,9 @@
 describe('roundOne', function() {
   it("returns the first line of the song with the number input at the the 1st and 2nd position", function() {
-    expect(roundOne(3)).to.equal("3 bottles of beer on the wall, 3 bottles of beer! Take one down, pass it around, 3 bottles of beer on the wall!");
+    expect(roundOne(3)).to.equal("3 bottles of beer on the wall, 3 bottles of beer! Take one down, pass it around, 2 bottles of beer on the wall!");
+  });
+  it("returns the first line of the song with the next lower number in the 3rd position", function() {
+    expect(roundOne(3)).to.equal("3 bottles of beer on the wall, 3 bottles of beer! Take one down, pass it around, 2 bottles of beer on the wall!");
   });
 });
 // describe('numberLower', function() {

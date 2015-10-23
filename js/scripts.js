@@ -1,5 +1,6 @@
 var roundOne = function(number) {
-  return number + " bottles of beer on the wall, " + number + " bottles of beer! " + "Take one down, pass it around, " + number + " bottles of beer on the wall!";
+  var numberLower = number - 1;
+  return number + " bottles of beer on the wall, " + number + " bottles of beer! " + "Take one down, pass it around, " + numberLower + " bottles of beer on the wall!";
 };
 // var inputNumber = function(number) {
 //   var numberLower = function(lower) {
