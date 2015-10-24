@@ -7,7 +7,7 @@ describe('roundOne', function() {
   });
 });
 describe('nextRounds', function() {
-  it("returns the all except the last two lines of the song with the numbers going lower using a loop", function() {
+  it("returns the all except the last two lines of the song with the numbers going lower using conditionals", function() {
     expect(nextRounds(5)).to.equal("5 bottles of beer on the wall, 5 bottles of beer! Take one down, pass it around, 4 bottles of beer on the wall! 4 bottles of beer on the wall, 4 bottles of beer! Take one down, pass it around, 3 bottles of beer on the wall! 3 bottles of beer on the wall, 3 bottles of beer! Take one down, pass it around, 2 bottles of beer on the wall! 2 bottles of beer on the wall, 2 bottles of beer! Take one down, pass it around, 1 bottle of beer on the wall! ");
   });
   it("returns the last two lines of the song, before the ending line, using singular bottle instead of bottles", function() {
